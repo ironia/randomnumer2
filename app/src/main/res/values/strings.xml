@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="common_open_on_phone">good</string>
+    <string name="app_name">RandomNum Generator</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4844195353069534/5714477170</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-4844195353069534/6575885287</string>
+    <string name="banner_ad_unit_id3">ca-app-pub-4844195353069534/9742343710</string>
+    <string name="banner_ad_list_view_id4">ca-app-pub-4844195353069534/2665064002</string>
+    <string name="banner_ad_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="save">이전 기록 저장</string>
+    <string name="adID">ca-app-pub-4844195353069534/6575885287</string>
+    <string name="draw">Draw</string>
+    <string name="reset">Reset</string>
+    <string name="startNum">Start Num</string>
+    <string name="endNum">End Num</string>
+    <string name="duplication">duplication</string>
+    <string name="hint">Input the number.</string>
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="exitMessage">Do you want to Exit?</string>
+    <string name="errorStrangeNumber">StartNumber is too big!</string>
+    <string name="emptyNumber">Input the Number.</string>
+    <string name="errorReset">Reset Please.</string>
+    <string name="confirm">Confirm</string>
+    <string name="appVersion" translatable="false">RandomNum V3.0.5</string>
+    <string name="listView">List of Draw</string>
+    <string name="close_btn">Close</string>
+    <string name="emptylist">Emptylist</string>
+    <string name="errorSameNumber">The two numbers are the same.</string>
+    <string name="settings">settings</string>
+    <string name="finish_button">Close</string>
+    <string name="send">Sending E-mail</string>
+    <string name="list_of_selected_title">🎲 List 🎲</string>
+    <string name="copyright">CopyRight. Hawoo. All right Reserved</string>
+    <string name="edit_view">Input Number Again!</string>
+    <string name="menu_list_tutorial">Tutorial</string>
+</resources>

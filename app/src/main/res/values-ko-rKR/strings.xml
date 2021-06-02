@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint">숫자를 입력하세요</string>
+    <string name="start">시작</string>
+    <string name="exit">종료</string>
+    <string name="cancel">취소</string>
+    <string name="exitMessage">앱을 안전하게 종료하시겠습니까?</string>
+    <string name="errorStrangeNumber">시작하는 숫자가 끝숫자보다 큽니다.</string>
+    <string name="emptyNumber">숫자부터 입력하세요.</string>
+    <string name="errorReset">초기화를 하세요</string>
+    <string name="adID">ca-app-pub-4844195353069534/6575885287</string>
+    <string name="app_name">숫자 뽑기</string>
+    <string name="endNum">끝 숫자</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4844195353069534/5714477170</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-4844195353069534/6575885287</string>
+    <string name="banner_ad_list_view_id4">ca-app-pub-4844195353069534/2665064002</string>
+    <string name="banner_ad_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="save">뽑기범위 저장</string>
+    <string name="duplication">중복 포함</string>
+    <string name="reset">초기화</string>
+    <string name="startNum">처음 숫자</string>
+    <string name="confirm">확인</string>
+    <string name="draw">시작</string>
+    <string name="listView">뽑은 내역</string>
+    <string name="close_btn">닫기</string>
+    <string name="emptylist">뽑은 내역이 없습니다.</string>
+    <string name="errorSameNumber">두 숫자가 서로 같습니다.</string>
+    <string name="banner_ad_unit_id3">ca-app-pub-4844195353069534/9742343710</string>
+    <string name="settings">설정</string>
+    <string name="finish_button">닫기</string>
+    <string name="send">문의하기</string>
+    <string name="list_of_selected_title">🎲 추첨 내역 🎲</string>
+    <string name="copyright">CopyRight. Howoo. All right Reserved</string>
+    <string name="edit_view">다시 입력하기!</string>
+    <string name="menu_list_tutorial">사용 설명</string>
+    <string name="common_open_on_phone">일반적인</string>
+</resources>

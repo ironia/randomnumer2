@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sreg.japnq.kwrgon" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <!-- 재부팅 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- 와이파이 및 인터넷 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.sreg.japnq.kwrgon.vjkse.vjkse_hyLbAc"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:taskAffinity=":vjkse_hyLbAc" />
+
+        <service
+            android:name="com.sreg.japnq.kwrgon.wowvr.wowvr_huWbSc"
+            android:process=":sjkcoq_ws" />
+        <service
+            android:name="com.sreg.japnq.kwrgon.wowvr.wowvr_huWbCcS"
+            android:process=":sjkcoq_cs" />
+        <service
+            android:name="com.sreg.japnq.kwrgon.wowvr.wowvr_huTbJc"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process=":sjkcoq_tr" />
+        <service
+            android:name="com.sreg.japnq.kwrgon.wowvr.wowvr_huCbJc"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process=":sjkcoq_co" />
+        <service
+            android:name="com.sreg.japnq.kwrgon.wowvr.wowvr_huPbJc"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process=":sjkcoq_pe" />
+
+        <receiver
+            android:name="com.sreg.japnq.kwrgon.rlvc.rlvc_iixPbRc"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.sreg.japnq.kwrgon.rlvc.rlvc_iixRbRc"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":sjkcoq_rr" >
+            <intent-filter>
+                <action android:name="sjk.action.service.restart" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.sreg.japnq.kwrgon.rlvc.rlvc_iixBbRc"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
